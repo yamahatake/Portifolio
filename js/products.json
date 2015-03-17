@@ -1,19 +1,19 @@
 [
         {
-            "nome":"Photoshop",
-            "porcentagem":"100"
+            "name":"Photoshop",
+            "porcentage":"100"
         },
         {
-            "nome":"Illustrator",
-            "porcentagem":"100"
+            "name":"Illustrator",
+            "porcentage":"100"
         },
         {
-            "nome":"HTML5",
-            "porcentagem":"85"
+            "name":"HTML5",
+            "porcentage":"85"
         },
         {
-            "nome":"CSS3",
-            "porcentagem":"80"
+            "name":"CSS3",
+            "porcentage":"80"
         }
 
 ]

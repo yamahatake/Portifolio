@@ -14,7 +14,7 @@
         <script src="js/modernizr-2.8.3.min.js"></script>
         <script src="js/jquery-1.11.2.min.js"></script>
         <script src="js/main.js"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.16/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
         <script type="text/javascript" src="js/storeApp.js"></script> 
     </head>
     <body>
@@ -80,11 +80,11 @@
                             <li><img src="images/lingua-jp.png"></li>
                         </ul>
                     </div>
-                    <div>
+                    <div ng-controller="StoreController as store">
                         <h1>Ferramentas que Trabalho</h1>
-                        <ul id="ferramentas" ng-controller="StoreController as store">
+                        <ul id="products">
                             <li class="item" ng-repeat="product in products">
-                                {{product.nome}}
+                                {{product.name}}
                             </li>
                         </ul>
                     </div>
