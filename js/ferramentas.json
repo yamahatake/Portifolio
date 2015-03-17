@@ -1,19 +1,19 @@
 [
         {
-            "ferramentaNome":"Photoshop",
-            "ferramentaPorcentagem":"100"
+            "nome":"Photoshop",
+            "porcentagem":"100"
         },
         {
-            "ferramentaNome":"Illustrator",
-            "ferramentaPorcentagem":"100"
+            "nome":"Illustrator",
+            "porcentagem":"100"
         },
         {
-            "ferramentaNome":"HTML5",
-            "ferramentaPorcentagem":"85"
+            "nome":"HTML5",
+            "porcentagem":"85"
         },
         {
-            "ferramentaNome":"CSS3",
-            "ferramentaPorcentagem":"80"
+            "nome":"CSS3",
+            "porcentagem":"80"
         }
 
 ]
