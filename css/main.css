@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
 /* ----------------------------------------- RESET  ----------------------------------------- */
 html {
     color: #222;
@@ -24,16 +26,35 @@ textarea { resize: vertical;}
 figure{margin: 0;}
 
 /* ----------------------------------------- GENERAL  ----------------------------------------- */
-body{ background: transparent url("../images/bg-body.jpg") repeat right top; }
+body{
+    background: transparent url("../images/bg-body.jpg") repeat right top;
+    color: #797979;
+    font-family: Cambria;
+}
+
+h1{
+    color: #1f2128;
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0;
+}
+
+p{ margin:0;}
+
+ul{ margin: 0; padding: 0;}
+
+li{list-style: none; float: left;}
 
 #wrapper{}
 #wrapper > div{ width: 936px; margin: 0 auto;}
 
-header{}
-header figure{}
+header{ height: 190px;}
+header figure{ float: left; margin-right: 20px;}
 header div{}
-header div h1{}
+header div h1{ padding-top: 20px;}
 header div p{}
+header div p b{color: #ed6400;}
 
 #content{}
 
