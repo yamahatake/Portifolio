@@ -89,13 +89,16 @@ header title{
     padding-left: 40px;
     width: 366px;
 }
-#ferramentas li{clear: both;}
+#ferramentas li{clear: both; margin-bottom: 10px;}
 #ferramentas li > div{
     background: #00477d;
     height: 10px;
+    float: left;
+    margin: 5px 0;
     width: 230px;
 }
-#ferramentas li > div div{ background: #0086ed;height: 10px}
+#ferramentas li > div div{ background: #0086ed; height: 10px}
+#ferramentas li p{ float: left; width: 136px;}
 
 #evolucao{margin-top: 40px;}
 #evolucao h1{ margin-bottom: 30px;}
