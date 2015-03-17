@@ -28,6 +28,13 @@ body{ background: transparent url("../images/bg-body.jpg") repeat right top; }
 
 #wrapper{}
 #wrapper > div{ width: 936px; margin: 0 auto;}
+
 header{}
+header figure{}
+header div{}
+header div h1{}
+header div p{}
+
 #content{}
+
 footer{}

@@ -17,15 +17,15 @@
         },
         {
             "name":"Javascript",
-            "porcentage":"80"
+            "porcentage":"50"
         },
         {
             "name":"JQuery",
-            "porcentage":"80"
+            "porcentage":"85"
         },
         {
             "name":"AngularJS",
-            "porcentage":"80"
+            "porcentage":"40"
         },
         {
             "name":"Sharepoint(2007-2010-2013)",
@@ -33,10 +33,10 @@
         },
         {
             "name":"After Effects",
-            "porcentage":"80"
+            "porcentage":"95"
         },
         {
             "name":"JSON",
-            "porcentage":"80"
+            "porcentage":"75"
         }
 ]
