@@ -99,6 +99,7 @@ header title{
 }
 #ferramentas li > div div{ background: #0086ed; height: 10px}
 #ferramentas li p{ float: left; width: 136px;}
+#ferramentas li:last-child{ width: 100%;}
 
 #evolucao{margin-top: 40px;}
 #evolucao h1{ margin-bottom: 30px;}
