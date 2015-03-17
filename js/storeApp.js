@@ -1,6 +1,6 @@
 (function(){
 
-	var app = angular.module("store", []);
+	var app = angular.module("portfolio", []);
 
 	app.controller('StoreController',function($scope, $http){
 		//cart.init('products');
