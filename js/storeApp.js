@@ -4,7 +4,7 @@
 
 
 	app.controller('ferramentaslistagem',function($scope, $http){
-		$http.get('script/ferramentas.json')
+		$http.get('js/ferramentas.json')
        .then(function(res){
           $scope.ferramentas = res.data;                
         });
