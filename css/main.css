@@ -86,7 +86,7 @@ header title{
     height: 10px;
     width: 230px;
 }
-#ferramentas li > div div{ background: #0086ed;}
+#ferramentas li > div div{ background: #0086ed;height: 10px}
 
 #evolucao{}
 
