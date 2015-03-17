@@ -37,11 +37,12 @@ h1{
     font-family: 'Abel', sans-serif;
     font-weight: normal;
     font-size: 30px;
-    margin: 0;
+    line-height: 22px;
+    margin: 0 0 15px;
     text-transform: uppercase;
 }
 
-p{ margin:0;}
+p{ margin:0; line-height: 20px;}
 
 ul{ display: inline-block; margin: 0; padding: 0;}
 
@@ -65,22 +66,30 @@ header title{
     font-family: 'Abel', sans-serif;
     font-weight: normal;
     font-size: 38px;
-    margin: 20px 0;
+    margin: 40px 0 30px;
     text-align: center;
     text-transform: uppercase;
 }
 
-#content{}
+#content{ display: inline-block;}
+#content > div{ float: left;}
 
-#fazerporvoce{}
+#fazerporvoce{ width: 490px;}
+#fazerporvoce ul{ width: 120%;}
 #fazerporvoce li{ margin-right: 28px; width: 100px;}
 #fazerporvoce li p{text-align: center;}
 
-#linguas{}
+#linguas{ margin-top: 40px; width: 490px;}
+#linguas h1{margin-bottom: 20px;}
 #linguas li{ margin-right:30px; }
 
-#ferramentas{}
-#ferramentas li{}
+#ferramentas{
+    border-left: 1px #1f2128 solid;
+    margin-left: 38px;
+    padding-left: 40px;
+    width: 366px;
+}
+#ferramentas li{clear: both;}
 #ferramentas li > div{
     background: #00477d;
     height: 10px;
@@ -88,8 +97,40 @@ header title{
 }
 #ferramentas li > div div{ background: #0086ed;height: 10px}
 
-#evolucao{}
+#evolucao{margin-top: 40px;}
+#evolucao h1{ margin-bottom: 30px;}
 
-#trabalhos{}
+#trabalhos{margin-top: 40px;}
 
-footer{}
+footer{
+    border-top: 1px #1f2128 solid;
+    margin-top: 40px;
+    padding-top: 20px
+}
+footer figure{
+    border-right: 1px #1f2128 solid;
+    float: left;
+    margin-right: 39px;
+    padding-right: 40px;
+    position: relative;
+}
+footer figure p{ 
+    right: 32px;
+    position: absolute;
+    top: 17px;
+    width: 200px;
+}
+footer div{ float: left; width: 456px}
+footer div ul{ width: 120%;}
+footer div li{
+    float: left;
+    height: 35px;
+    margin: 0 50px 20px 0;
+    padding-left: 45px;    
+    width: 155px;
+}
+footer div li p{ font-size: 16px; padding-top: 5px;}
+footer #email{background: transparent url("../images/ico-email.png") no-repeat left center;}
+footer #celular{background: transparent url("../images/ico-mobile.png") no-repeat left center;}
+footer #facebook{background: transparent url("../images/ico-facebook.png") no-repeat left center;}
+footer #skype{background: transparent url("../images/ico-skype.png") no-repeat left center;}
