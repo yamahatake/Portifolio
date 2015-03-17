@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Augusto Yamamoto Lati</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="images/favico.png" rel="shortcut icon" type="image/x-icon" />
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/modernizr-2.8.3.min.js"></script>
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script type="text/javascript" src="js/storeApp.js"></script> 
+    </head>
+    <body ng-app="portfolio">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">Você esta usando um browser desatualizado. Por favor <a href="http://browsehappy.com/">atualize seu browser</a> para poder acessar este site.</p>
+        <![endif]-->
+        
+        <div id="wrapper">
+            <div>
+                <header>
+                    <figure>
+                        <img src="images/vector-art.png">
+                    </figure>
+                    <div>
+                        <h1>Sobre mim</h1>
+                        <p>Meu nome é Augusto Yamamoto Lati, sou um front-end developer e web designer de São Paulo. Gosto de criar designs limpos e efetivos e adoro desenvolver o projeto do começo ao fim. Além de trabalhar na área de TI também tenho experiência com edição de vídeo , editorial gráfico e 3D. Morei 1 ano em Vancouver, Canadá e gosto de rock, anime, games e poker com os amigos.</p>
+                    </div>
+                    <div id="">Portfólio Augusto Yamamoto Lati, Front-end Developer</div>
+                </header>
+                <div id="content">
+                    <div>
+                        <h1>O que eu posso fazer por você</h1>
+                        <ul>
+                            <li>
+                                <img src="images/ico-uxdesign.png">
+                                <p>UX Design</p>
+                            </li>
+                            <li>
+                                <img src="images/ico-uidesign.png">
+                                <p>UI Design</p>
+                            </li>
+                            <li>
+                                <img src="images/ico-webdesign.png">
+                                <p>Web Design</p>
+                            </li>
+                            <li>
+                                <img src="images/ico-logobranding.png">
+                                <p>Logo e Branding</p>
+                            </li>
+                            <li>
+                                <img src="images/ico-frontend.png">
+                                <p>Front-end Developtment</p>
+                            </li>
+                            <li>
+                                <img src="images/ico-edicaovideo.png">
+                                <p>Edição de vídeo</p>
+                            </li>
+                            <li>
+                                <img src="images/ico-modelagem3d.png">
+                                <p>Modelagem 3D</p>
+                            </li>
+                            <li>
+                                <img src="images/ico-materialimpresso.png">
+                                <p>Material Impresso</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1>Línguas que falo</h1>
+                        <ul>
+                            <li><img src="images/lingua-br.png"></li>
+                            <li><img src="images/lingua-en.png"></li>
+                            <li><img src="images/lingua-jp.png"></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1>Ferramentas que Trabalho</h1>
+                        <ul id="ferramentas" ng-controller="ferramentaslistagem as store">
+                            <li class="item" ng-repeat="ferramenta in ferramentas">
+                                {{ferramenta.ferramentaNome | currency}}
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1>Minha linha de evolução</h1>
+                    </div>
+                    <div>
+                        <h1>Alguns trabalhos</h1>
+                        <figure><img src="images/linha-evolucao.png"></figure>
+                    </div>
+                </div>
+                <footer>
+                    <figure><img src="images/me-contrate.png"></figure>
+                    <div>
+                        <h1>Entre em contato</h1>
+                        <ul>
+                            <li>
+                                <p>yamaaug@gmail.com</p>
+                            </li>
+                            <li>
+                                <p>(11) 2651-3240</p>
+                            </li>
+                            <li>
+                                <p>augusto.yamamotolati</p>
+                            </li>
+                            <li>
+                                <p>yamahatake2</p>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        
+    </body>
+</html>
