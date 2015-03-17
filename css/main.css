@@ -81,7 +81,7 @@ header title{
 
 #linguas{ margin-top: 40px; width: 490px;}
 #linguas h1{margin-bottom: 20px;}
-#linguas li{ margin-right:30px; }
+#linguas li{ margin-right:30px;  width: auto;}
 
 #ferramentas{
     border-left: 1px #1f2128 solid;
@@ -105,6 +105,9 @@ header title{
 #evolucao h1{ margin-bottom: 30px;}
 
 #trabalhos{margin-top: 40px;}
+#trabalhos ul{ width: 120%;}
+#trabalhos li{ margin-right: 43px;}
+#trabalhos li a{ border: 1px #797979 solid; display: inline-block;}
 
 footer{
     border-top: 1px #1f2128 solid;
