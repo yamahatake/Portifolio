@@ -1,12 +1,11 @@
 (function(){
 
-	var app = angular.module("portfolio", []);
+	var app = angular.module("store", []);
 
-
-	app.controller('ferramentaslistagem',function($scope, $http){
-		$http.get('js/ferramentas.json')
-       .then(function(res){
-          $scope.ferramentas = res.data;                
-        });
+	app.controller('StoreController',function($scope, $http){
+		//cart.init('products');
+		$http.get('js/products.json').then(function(res){
+		    $scope.products = res.data;                
+		});	 
 	});
 })();
