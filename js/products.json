@@ -14,6 +14,29 @@
         {
             "name":"CSS3",
             "porcentage":"80"
+        },
+        {
+            "name":"Javascript",
+            "porcentage":"80"
+        },
+        {
+            "name":"JQuery",
+            "porcentage":"80"
+        },
+        {
+            "name":"AngularJS",
+            "porcentage":"80"
+        },
+        {
+            "name":"Sharepoint(2007-2010-2013)",
+            "porcentage":"80"
+        },
+        {
+            "name":"After Effects",
+            "porcentage":"80"
+        },
+        {
+            "name":"JSON",
+            "porcentage":"80"
         }
-
 ]
