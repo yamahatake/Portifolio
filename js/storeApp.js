@@ -1,6 +1,6 @@
 (function(){
 
-	var app = angular.module("portfolio", ['ngRoute']);
+	var app = angular.module("portfolio", []);
 
 	/*app.config(['$routeProvider', '$httpProvider', function($routeProvider, $httpProvider) {
 	    $httpProvider.defaults.cache = false;
