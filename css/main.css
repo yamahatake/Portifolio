@@ -105,13 +105,13 @@ header title{
 #evolucao h1{ margin-bottom: 30px;}
 #evolucao ul{}
 #evolucao li{ position: absolute;}
-#evolucao li h4{ color: #0086ed; font-size: 14px; margin: 0;}
+#evolucao li h4{ color: #0086ed; font-size: 14px; margin: 0; line-height: 14px;}
 #evolucao li p{ color: #797979; font-size: 10px; line-height: 10px;}
 #evolucao li h6{ color: #1f2128; font-size: 12px; margin: 0;}
 
 #trabalhos{margin-top: 40px;}
 #trabalhos ul{ width: 120%;}
-#trabalhos li{ margin-right: 43px;}
+#trabalhos li{ margin-right: 43px; width: 152px;}
 #trabalhos li a{ border: 1px #797979 solid; display: inline-block;}
 
 footer{
