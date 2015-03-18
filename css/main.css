@@ -103,7 +103,7 @@ header title{
 
 #evolucao{margin-top: 40px; height: 285px; position: relative; width: 100%;}
 #evolucao h1{ margin-bottom: 30px;}
-#evolucao figure{ position: absolute; left: -12px; top: 72px;}
+#evolucao figure{ position: absolute; left: -12px; top: 72px; z-index: -10;}
 #evolucao figure img{}
 #evolucao ul{}
 #evolucao li{ position: absolute; width: 152px;}
