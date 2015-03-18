@@ -118,7 +118,7 @@ header title{
 
 footer{
     border-top: 1px #1f2128 solid;
-    margin-top: 40px;
+    margin: 40px 0;
     padding-top: 20px
 }
 footer figure{
