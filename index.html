@@ -97,8 +97,15 @@
                             </li>
                         </ul>
                     </div>                          
-                    <div id="evolucao">
+                    <div id="evolucao" ng-controller="WorksController as store">
                         <h1>Minha linha de evolução</h1>
+                        <ul id="trabalhoitens">
+                            <li class="item" ng-repeat="trabalho in trabalhoitens">
+                                <h4>{{trabalho.name}}</h4>
+                                <p>{{trabalho.time}}</p>
+                                <h6>{{trabalho.place}}</h6>
+                            </li>
+                        </ul>
                         <figure><img src="images/linha-evolucao.png"></figure>
                     </div>
                     <div id="trabalhos">

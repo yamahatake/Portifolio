@@ -7,4 +7,10 @@
 		    $scope.ferramentaitens = res.data;                
 		});	 
 	});
+
+	app.controller('WorksController',function($scope, $http){
+		$http.get('js/trabalhos.json').then(function(res){
+		    $scope.trabalhoitens = res.data;                
+		});	 
+	});
 })();
