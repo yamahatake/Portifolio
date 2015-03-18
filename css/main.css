@@ -101,8 +101,10 @@ header title{
 #ferramentas li p{ float: left; width: 136px;}
 #ferramentas li:last-child p{ width: 100%;}
 
-#evolucao{margin-top: 40px; position: relative;}
+#evolucao{margin-top: 40px; height: 285px; position: relative; width: 100%;}
 #evolucao h1{ margin-bottom: 30px;}
+#evolucao figure{ position: absolute; left: -12px; top: 72px;}
+#evolucao figure img{}
 #evolucao ul{}
 #evolucao li{ position: absolute; width: 152px;}
 #evolucao li h4{ color: #0086ed; font-size: 14px; margin: 0; line-height: 14px;}
