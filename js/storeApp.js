@@ -2,9 +2,8 @@
 
 	var app = angular.module("portfolio", []);
 
-	app.controller('StoreController',function($scope, $http){
-		//cart.init('products');
-		$http.get('js/products.json').then(function(res){
+	app.controller('ToolsController',function($scope, $http){
+		$http.get('js/ferramentas.json').then(function(res){
 		    $scope.products = res.data;                
 		});	 
 	});
