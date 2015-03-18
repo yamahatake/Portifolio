@@ -85,11 +85,11 @@
                     </div>
                     <div id="ferramentas" ng-controller="ToolsController as store">
                         <h1>Ferramentas que Trabalho</h1>
-                        <ul id="products">
-                            <li class="item" ng-repeat="product in products">
-                                <p>{{product.name}}</p>
+                        <ul id="itens">
+                            <li class="item" ng-repeat="ferramenta in itens">
+                                <p>{{ferramenta.name}}</p>
                                 <div>
-                                    <div style="width:{{product.porcentage}}%;"></div>
+                                    <div style="width:{{ferramenta.porcentage}}%;"></div>
                                 </div>
                             </li>
                             <li>
