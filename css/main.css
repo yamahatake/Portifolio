@@ -169,7 +169,7 @@ footer #skype{background: transparent url("../images/ico-skype.png") no-repeat l
     #content, #content > div, #fazerporvoce ul, #trabalhos ul, #ferramentas li, #ferramentas li > div, footer > div, footer ul{width: 100%;}
     #linguas{margin:40px 0;}
     #ferramentas{margin: 0; padding: 0; border: 0;}
-    #trabalhos li{margin-bottom: 20px;}
+    #trabalhos li{margin: 0 15px 20px;}
     #evolucao{height: auto;}
     #evolucao li{ position: inherit; width: 230px;}
     footer figure{margin: 0 0 30px; padding: 0; border: 0; width: 100%;}
