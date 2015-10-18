@@ -7,30 +7,6 @@
             "xposition":"1px",
             "yposition":"71px"
         },
-        {   
-            "ico":"images/ico-tecnico.png",
-            "name":"Técnico em Informática",
-            "time":"Setembro de 2009",
-            "place":"Senac, São Paulo",
-            "xposition":"189px",
-            "yposition":"71px"
-        },
-        {   
-            "ico":"images/ico-UNIP.png",
-            "name":"Graduação em Computação Gráfica",
-            "time":"Agosto de 2011",
-            "place":"UNIP, São Paulo",
-            "xposition":"397px",
-            "yposition":"71px"
-        },
-        {
-            "ico":"images/ico-ilac.png",
-            "name":"Ilac Vancouver",
-            "time":"Abril de 2014 - Setembro de 2014",
-            "place":"Vancouver, Canadá",
-            "xposition":"591px",
-            "yposition":"71px"
-        },
         {
             "ico":"images/ico-afterEffects.png",
             "name":"Curso After Effects",
@@ -38,6 +14,14 @@
             "place":"Impacta, São Paulo",
             "xposition":"39px",
             "yposition":"218px"
+        },
+        {   
+            "ico":"images/ico-tecnico.png",
+            "name":"Técnico em Informática",
+            "time":"Setembro de 2009",
+            "place":"Senac, São Paulo",
+            "xposition":"189px",
+            "yposition":"71px"
         },
         {
             "ico":"images/ico-ICS.png",
@@ -55,6 +39,14 @@
             "xposition":"382px",
             "yposition":"218px"
         },
+        {   
+            "ico":"images/ico-UNIP.png",
+            "name":"Graduação em Computação Gráfica",
+            "time":"Agosto de 2011",
+            "place":"UNIP, São Paulo",
+            "xposition":"397px",
+            "yposition":"71px"
+        },
         {
             "ico":"images/ico-domore.png",
             "name":"DoMore! Solutions .ltda",
@@ -62,6 +54,14 @@
             "place":"São Paulo",
             "xposition":"606px",
             "yposition":"218px"
+        },
+        {
+            "ico":"images/ico-ilac.png",
+            "name":"Ilac Vancouver",
+            "time":"Abril de 2014 - Setembro de 2014",
+            "place":"Vancouver, Canadá",
+            "xposition":"591px",
+            "yposition":"71px"
         },
         {
             "ico":"images/ico-modal.png",

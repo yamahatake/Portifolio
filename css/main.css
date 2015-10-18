@@ -170,6 +170,8 @@ footer #skype{background: transparent url("../images/ico-skype.png") no-repeat l
     #linguas{margin:40px 0;}
     #ferramentas{margin: 0; padding: 0; border: 0;}
     #trabalhos li{margin-bottom: 20px;}
+    #evolucao{height: auto;}
+    #evolucao li{ position: inherit; width: 230px;}
     footer figure{margin: 0 0 30px; padding: 0; border: 0; width: 100%;}
     footer figure div{ width: 70%;}
     footer figure p{ width: 100%; top: 45px;}
