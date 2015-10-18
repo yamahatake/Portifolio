@@ -4,7 +4,7 @@
             "name":"Curso 3D Studio Max",
             "time":"Setembro de 2008",
             "place":"Senac, São Paulo",
-            "xposition":"52px",
+            "xposition":"1px",
             "yposition":"71px"
         },
         {   
@@ -12,7 +12,7 @@
             "name":"Técnico em Informática",
             "time":"Setembro de 2009",
             "place":"Senac, São Paulo",
-            "xposition":"302px",
+            "xposition":"189px",
             "yposition":"71px"
         },
         {   
@@ -20,15 +20,15 @@
             "name":"Graduação em Computação Gráfica",
             "time":"Agosto de 2011",
             "place":"UNIP, São Paulo",
-            "xposition":"537px",
+            "xposition":"397px",
             "yposition":"71px"
         },
         {
-            "ico":"images/ico-3DMAX.png",
+            "ico":"images/ico-ilac.png",
             "name":"Ilac Vancouver",
-            "time":"Dezembro de 2014",
+            "time":"Abril de 2014 - Setembro de 2014",
             "place":"Vancouver, Canadá",
-            "xposition":"832px",
+            "xposition":"591px",
             "yposition":"71px"
         },
         {
@@ -36,7 +36,7 @@
             "name":"Curso After Effects",
             "time":"Janeiro de 2009",
             "place":"Impacta, São Paulo",
-            "xposition":"109px",
+            "xposition":"39px",
             "yposition":"218px"
         },
         {
@@ -44,7 +44,7 @@
             "name":"Certificação ICS Ilustrador Digital",
             "time":"Junho de 2009",
             "place":"Impacta, São Paulo",
-            "xposition":"283px",
+            "xposition":"212px",
             "yposition":"218px"
         },
         {
@@ -52,7 +52,7 @@
             "name":"Agência Foster .ltda",
             "time":"Setembro de 2008 - Junho de 2011",
             "place":"São Paulo",
-            "xposition":"482px",
+            "xposition":"382px",
             "yposition":"218px"
         },
         {
@@ -60,7 +60,7 @@
             "name":"DoMore! Solutions .ltda",
             "time":"Agosto de 2011 - Março de 2014",
             "place":"São Paulo",
-            "xposition":"815px",
+            "xposition":"606px",
             "yposition":"218px"
         },
         {
@@ -68,16 +68,16 @@
             "name":"Início Freelas",
             "time":"",
             "place":"",
-            "xposition":"656px",
-            "yposition":"202px"
+            "xposition":"500px",
+            "yposition":"187px"
         },
         {
             "ico":"images/ico-modal.png",
             "name":"Banco Modal",
             "time":"Abril de 2015 - Hoje",
             "place":"São Paulo",
-            "xposition":"856px",
-            "yposition":"283px"
+            "xposition":"830px",
+            "yposition":"71px"
         }
         
 ]
