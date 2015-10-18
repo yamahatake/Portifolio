@@ -149,3 +149,13 @@ footer #email{background: transparent url("../images/ico-email.png") no-repeat l
 footer #celular{background: transparent url("../images/ico-mobile.png") no-repeat left center;}
 footer #facebook{background: transparent url("../images/ico-facebook.png") no-repeat left center;}
 footer #skype{background: transparent url("../images/ico-skype.png") no-repeat left center;}
+
+@media (max-width: 992px) {
+    #wrapper > div{ width: auto; margin: 0 20px;}
+    #evolucao figure{display: none;}
+}
+
+@media (max-width: 768px) {
+    header figure{float: none; margin: 0 auto; text-align: center;}
+
+}
