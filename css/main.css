@@ -58,7 +58,7 @@ ul{ display: inline-block; margin: 0; padding: 0;}
 
 li{list-style: none; float: left;}
 
-#wrapper{}
+#wrapper{overflow-x: hidden;}
 #wrapper > div{ width: 936px; margin: 0 auto;}
 
 header{}
