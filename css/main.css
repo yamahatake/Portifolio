@@ -37,7 +37,17 @@ h1{
     font-family: 'Abel', sans-serif;
     font-weight: normal;
     font-size: 30px;
-    line-height: 22px;
+    line-height: 30px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #1f2128;
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
     margin: 0 0 15px;
     text-transform: uppercase;
 }
@@ -128,16 +138,19 @@ footer figure{
     margin-right: 39px;
     padding-right: 40px;
     position: relative;
+    width: 390px;
 }
+footer figure div{ position: relative; float: right;}
+footer figure div img{ width: 100%; height: 200px;}
 footer figure p{ 
-    right: 32px;
+    left: 0;
     position: absolute;
     top: 17px;
-    width: 200px;
+    width: 100%;
 }
-footer div{ float: left; width: 456px}
-footer div ul{ width: 120%;}
-footer div li{
+footer > div{ float: left; width: 456px}
+footer > div ul{ width: 120%;}
+footer > div li{
     float: left;
     height: 35px;
     margin: 0 50px 20px 0;
@@ -153,9 +166,19 @@ footer #skype{background: transparent url("../images/ico-skype.png") no-repeat l
 @media (max-width: 992px) {
     #wrapper > div{ width: auto; margin: 0 20px;}
     #evolucao figure{display: none;}
+    #content, #content > div, #fazerporvoce ul, #trabalhos ul, #ferramentas li, #ferramentas li > div, footer > div, footer ul{width: 100%;}
+    #linguas{margin:40px 0;}
+    #ferramentas{margin: 0; padding: 0; border: 0;}
+    #trabalhos li{margin-bottom: 20px;}
+    footer figure{margin: 0 0 30px; padding: 0; border: 0; width: 100%;}
+    footer figure div{ width: 70%;}
+    footer figure p{ width: 100%; top: 45px;}
+    footer figure div img{ height: 140px;}
+
 }
 
 @media (max-width: 768px) {
     header figure{float: none; margin: 0 auto; text-align: center;}
-
+    footer figure div{ width: 100%; margin-top: 20px;}
+    footer figure p{ top: 35px;}
 }
