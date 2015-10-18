@@ -1,19 +1,22 @@
 [
-        {
+        {   
+            "ico":"../images/ico-3DMAX.png",
             "name":"Curso 3D Studio Max",
             "time":"Setembro de 2008",
             "place":"Senac, São Paulo",
             "xposition":"52px",
             "yposition":"71px"
         },
-        {
+        {   
+            "ico":"../images/ico-tecnico.png",
             "name":"Técnico em Informática",
             "time":"Setembro de 2009",
             "place":"Senac, São Paulo",
             "xposition":"302px",
             "yposition":"71px"
         },
-        {
+        {   
+            "ico":"../images/ico-UNIP.png",
             "name":"Graduação em Computação Gráfica",
             "time":"Agosto de 2011",
             "place":"UNIP, São Paulo",
@@ -21,6 +24,7 @@
             "yposition":"71px"
         },
         {
+            "ico":"../images/ico-3DMAX.png",
             "name":"Ilac Vancouver",
             "time":"Dezembro de 2014",
             "place":"Vancouver, Canadá",
@@ -28,6 +32,7 @@
             "yposition":"71px"
         },
         {
+            "ico":"../images/ico-afterEffects.png",
             "name":"Curso After Effects",
             "time":"Janeiro de 2009",
             "place":"Impacta, São Paulo",
@@ -35,6 +40,7 @@
             "yposition":"218px"
         },
         {
+            "ico":"../images/ico-ICS.png",
             "name":"Certificação ICS Ilustrador Digital",
             "time":"Junho de 2009",
             "place":"Impacta, São Paulo",
@@ -42,6 +48,7 @@
             "yposition":"218px"
         },
         {
+            "ico":"../images/ico-foster.png",
             "name":"Agência Foster .ltda",
             "time":"Setembro de 2008 - Junho de 2011",
             "place":"São Paulo",
@@ -49,6 +56,7 @@
             "yposition":"218px"
         },
         {
+            "ico":"../images/ico-domore.png",
             "name":"DoMore! Solutions .ltda",
             "time":"Agosto de 2011 - Março de 2014",
             "place":"São Paulo",
@@ -56,11 +64,20 @@
             "yposition":"218px"
         },
         {
+            "ico":"../images/ico-freela.png",
             "name":"Início Freelas",
             "time":"",
             "place":"",
             "xposition":"656px",
             "yposition":"202px"
+        },
+        {
+            "ico":"../images/ico-modal.png",
+            "name":"Banco Modal",
+            "time":"Abril de 2015 - Hoje",
+            "place":"São Paulo",
+            "xposition":"856px",
+            "yposition":"283px"
         }
         
 ]

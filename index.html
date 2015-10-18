@@ -93,7 +93,7 @@
                                 </div>
                             </li>
                             <li>
-                                <p>Outros: Rest, XML/XSLT, AJAX, InDesign, Bootstrap, Magento, Flash, Modernizr, Git, Grunt, Handlebars, LESS/SASS, Particle Illusion, MAYA, 3DMAX, ZBRUSH, REALFLOW.</p>
+                                <p>Outros: Wordpress, Rest, XML/XSLT, AJAX, InDesign, Bootstrap, Magento, Flash, Modernizr, Git, Grunt, Handlebars, LESS/SASS, Particle Illusion, MAYA, 3DMAX, ZBRUSH, REALFLOW.</p>
                             </li>
                         </ul>
                     </div>                          
@@ -101,6 +101,7 @@
                         <h1>Minha linha de evolução</h1>
                         <ul id="trabalhoitens">
                             <li class="item" ng-repeat="trabalho in trabalhoitens" ng-style="{ left: trabalho.xposition, top: trabalho.yposition}">
+                                <h4>{{trabalho.ico}}</h4>
                                 <h4>{{trabalho.name}}</h4>
                                 <p>{{trabalho.time}}</p>
                                 <h6>{{trabalho.place}}</h6>
