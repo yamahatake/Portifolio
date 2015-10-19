@@ -124,7 +124,7 @@ header title{
 
 #trabalhos{margin-top: 40px;}
 #trabalhos ul{ width: 120%;}
-#trabalhos li{ margin-right: 43px;}
+#trabalhos li{ margin: 0 43px 30px 0px;}
 #trabalhos li a{ border: 1px #797979 solid; display: inline-block;}
 
 footer{
